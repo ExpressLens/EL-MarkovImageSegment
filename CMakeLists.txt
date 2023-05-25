@@ -2,4 +2,4 @@ cmake_minimum_required(VERSION 2.8.11)
 
 project(markov)
 
-set(PROJ
+set(PROJECT_SRC_DIR 
