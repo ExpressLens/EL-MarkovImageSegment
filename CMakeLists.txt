@@ -1,1 +1,1 @@
-cma
+cmake_minimum_
