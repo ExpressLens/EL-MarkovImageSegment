@@ -4,4 +4,5 @@ project(markov)
 
 set(PROJECT_SRC_DIR ${PROJECT_SOURCE_DIR})
 
-confi
+configure_file (
+  "
