@@ -5,4 +5,5 @@ project(markov)
 set(PROJECT_SRC_DIR ${PROJECT_SOURCE_DIR})
 
 configure_file (
-  "${PROJECT_SOURCE_DIR}/Set
+  "${PROJECT_SOURCE_DIR}/Settings.h.in"
+ 
