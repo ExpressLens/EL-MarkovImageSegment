@@ -10,4 +10,5 @@ configure_file (
 
 include_directories("${PROJECT_BINARY_DIR}")
 
-if (CMAKE_GENERATOR STREQUAL Xcod
+if (CMAKE_GENERATOR STREQUAL Xcode)
+  SET(CMAKE_R
