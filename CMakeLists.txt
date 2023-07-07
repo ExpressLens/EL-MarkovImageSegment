@@ -8,4 +8,6 @@ configure_file (
   "${PROJECT_SOURCE_DIR}/Settings.h.in"
   "${PROJECT_BINARY_DIR}/Settings.h")
 
-include_directories("${PROJECT_BINAR
+include_directories("${PROJECT_BINARY_DIR}")
+
+if
