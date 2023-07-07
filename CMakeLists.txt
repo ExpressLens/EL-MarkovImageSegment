@@ -10,4 +10,4 @@ configure_file (
 
 include_directories("${PROJECT_BINARY_DIR}")
 
-if
+if (CMAKE_GENERATOR 
