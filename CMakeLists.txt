@@ -10,4 +10,4 @@ configure_file (
 
 include_directories("${PROJECT_BINARY_DIR}")
 
-if (CMAKE_GENERATOR 
+if (CMAKE_GENERATOR STREQUAL Xcod
