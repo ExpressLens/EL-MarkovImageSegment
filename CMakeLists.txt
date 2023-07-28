@@ -12,4 +12,5 @@ include_directories("${PROJECT_BINARY_DIR}")
 
 if (CMAKE_GENERATOR STREQUAL Xcode)
   SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
-el
+else()
+  S
