@@ -16,4 +16,4 @@ else()
   SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
 endif()
 
-add_subd
+add_subdirectory(
