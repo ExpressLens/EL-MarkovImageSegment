@@ -6,4 +6,5 @@
 //
 //
 
-#ifndef face_detection_Config
+#ifndef face_detection_Config_h
+#define face
