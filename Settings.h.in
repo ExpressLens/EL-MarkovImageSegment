@@ -9,4 +9,4 @@
 #ifndef face_detection_Config_h
 #define face_detection_Config_h
 
-#define PROJECT_SRC_DIR "@
+#define PROJECT_SRC_DIR "@PROJECT_SOUR
