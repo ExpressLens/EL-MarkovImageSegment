@@ -3,4 +3,4 @@
 [X] Implement simulated annealing
 [X] Implement cost function
 [X] Use Luv instead rgb
-[X] Generate the executable at proj
+[X] Generate the executable at project root
