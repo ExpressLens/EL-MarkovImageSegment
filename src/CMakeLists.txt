@@ -4,4 +4,5 @@ function(add_dir directory return)
      "${directory}/*.cpp"
   )
 
-  if (${directory} STREQU
+  if (${directory} STREQUAL ".")
+    set(gro
