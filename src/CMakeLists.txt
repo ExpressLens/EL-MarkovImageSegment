@@ -4,4 +4,4 @@ function(add_dir directory return)
      "${directory}/*.cpp"
   )
 
-  if (${di
+  if (${directory} STREQU
