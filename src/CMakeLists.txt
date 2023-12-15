@@ -7,4 +7,5 @@ function(add_dir directory return)
   if (${directory} STREQUAL ".")
     set(group "root")
   else()
-    set(group ${direct
+    set(group ${directory})
+  en
