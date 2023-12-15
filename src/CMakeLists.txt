@@ -5,4 +5,5 @@ function(add_dir directory return)
   )
 
   if (${directory} STREQUAL ".")
-    set(group "ro
+    set(group "root")
+  else()
