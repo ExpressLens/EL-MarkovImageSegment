@@ -8,4 +8,6 @@ function(add_dir directory return)
     set(group "root")
   else()
     set(group ${directory})
-  en
+  endif()
+
+  source_
