@@ -11,3 +11,5 @@ function(add_dir directory return)
   endif()
 
   source_group(${group} FILES ${source})
+
+  set(
