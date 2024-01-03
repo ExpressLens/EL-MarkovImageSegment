@@ -12,4 +12,4 @@ function(add_dir directory return)
 
   source_group(${group} FILES ${source})
 
-  set(
+  set(${return} 
