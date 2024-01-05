@@ -12,4 +12,5 @@ function(add_dir directory return)
 
   source_group(${group} FILES ${source})
 
-  set(${return} ${source} PARENT_SCO
+  set(${return} ${source} PARENT_SCOPE)
+endfunction(add
