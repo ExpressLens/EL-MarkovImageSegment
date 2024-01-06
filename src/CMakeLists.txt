@@ -15,4 +15,4 @@ function(add_dir directory return)
   set(${return} ${source} PARENT_SCOPE)
 endfunction(add_dir)
 
-set
+set(CMAKE_CXX_
