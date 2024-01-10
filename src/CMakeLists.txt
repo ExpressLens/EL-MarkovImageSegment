@@ -15,4 +15,4 @@ function(add_dir directory return)
   set(${return} ${source} PARENT_SCOPE)
 endfunction(add_dir)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -W -Wall -Wextra 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -W -Wall -Wextra -pedantic -std=
