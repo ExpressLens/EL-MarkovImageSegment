@@ -17,4 +17,4 @@ endfunction(add_dir)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -W -Wall -Wextra -pedantic -std=c++11")
 
-add_
+add_dir("." so
