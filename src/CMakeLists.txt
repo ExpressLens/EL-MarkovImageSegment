@@ -21,4 +21,6 @@ add_dir("." source)
 
 find_package(OpenCV REQUIRED)
 find_package(Boost COMPONENTS system filesystem REQUIRED)
-find_package(Armadillo REQUI
+find_package(Armadillo REQUIRED)
+
+include_direct
