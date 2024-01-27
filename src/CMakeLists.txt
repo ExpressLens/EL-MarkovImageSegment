@@ -23,4 +23,5 @@ find_package(OpenCV REQUIRED)
 find_package(Boost COMPONENTS system filesystem REQUIRED)
 find_package(Armadillo REQUIRED)
 
-include_directories(SYSTEM ${OpenCV_I
+include_directories(SYSTEM ${OpenCV_INCLUDE_DIRS})
+includ
