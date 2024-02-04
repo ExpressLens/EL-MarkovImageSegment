@@ -25,4 +25,4 @@ find_package(Armadillo REQUIRED)
 
 include_directories(SYSTEM ${OpenCV_INCLUDE_DIRS})
 include_directories(SYSTEM ${Boost_INCLUDE_DIRS})
-include_directories(${AR
+include_directories(${ARMADILLO_INCLUD
