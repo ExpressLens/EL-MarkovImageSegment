@@ -27,4 +27,6 @@ include_directories(SYSTEM ${OpenCV_INCLUDE_DIRS})
 include_directories(SYSTEM ${Boost_INCLUDE_DIRS})
 include_directories(${ARMADILLO_INCLUDE_DIRS})
 
-add_executable(markov 
+add_executable(markov ${source})
+
+tar
