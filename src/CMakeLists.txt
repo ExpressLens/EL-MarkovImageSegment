@@ -29,4 +29,4 @@ include_directories(${ARMADILLO_INCLUDE_DIRS})
 
 add_executable(markov ${source})
 
-tar
+target_link_libraries(
