@@ -29,4 +29,5 @@ include_directories(${ARMADILLO_INCLUDE_DIRS})
 
 add_executable(markov ${source})
 
-target_link_libraries(markov ${OpenCV_LIBS} ${ARMADILLO_LIB
+target_link_libraries(markov ${OpenCV_LIBS} ${ARMADILLO_LIBRARIES}
+    
