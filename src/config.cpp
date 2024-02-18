@@ -2,4 +2,7 @@
 //  config.cpp
 //  markov
 //
-//  Created by ixi on 16/12/
+//  Created by ixi on 16/12/14.
+//
+//
+
