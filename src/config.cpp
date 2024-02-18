@@ -8,4 +8,4 @@
 
 #include "config.h"
 
-cv
+cv::Vec3b Confi
