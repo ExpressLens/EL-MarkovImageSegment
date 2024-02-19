@@ -8,4 +8,4 @@
 
 #include "config.h"
 
-cv::Vec3b Config::colors[N
+cv::Vec3b Config::colors[NB_COLORS
