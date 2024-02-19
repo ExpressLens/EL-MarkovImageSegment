@@ -8,4 +8,4 @@
 
 #include "config.h"
 
-cv::Vec3b Confi
+cv::Vec3b Config::colors[N
