@@ -15,4 +15,4 @@ cv::Vec3b Config::colors[NB_COLORS] =
     cv::Vec3b(127, 127, 127),
     cv::Vec3b(238, 0, 238),
     cv::Vec3b(0, 255, 127),
-   
+    cv::Vec3b(0, 
