@@ -2,4 +2,4 @@
 //  config.h
 //  markov
 //
-//  Creat
+//  Created by ixi on 1
