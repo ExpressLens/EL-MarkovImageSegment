@@ -6,4 +6,5 @@
 //
 //
 
-#ifndef __marko
+#ifndef __markov__config__
+#de
