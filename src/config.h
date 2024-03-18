@@ -7,4 +7,4 @@
 //
 
 #ifndef __markov__config__
-#define __mar
+#define __markov__config__
