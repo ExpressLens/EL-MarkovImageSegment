@@ -11,4 +11,4 @@
 
 #include <opencv2/opencv.hpp>
 
-#def
+#define NB_COLORS
