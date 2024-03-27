@@ -13,4 +13,7 @@
 
 #define NB_COLORS 9
 
-class
+class Config
+{
+public:
+    
