@@ -16,4 +16,4 @@
 class Config
 {
 public:
-    // Eau, fond, fond relief, bat1, bat2,
+    // Eau, fond, fond relief, bat1, bat2, rouge vif, zone
