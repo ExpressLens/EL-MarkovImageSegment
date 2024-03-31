@@ -17,4 +17,4 @@ class Config
 {
 public:
     // Eau, fond, fond relief, bat1, bat2, rouge vif, zone, texte, trait fin
-    static cv::Ve
+    static cv::Vec3b colors[N
