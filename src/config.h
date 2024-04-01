@@ -18,4 +18,5 @@ class Config
 public:
     // Eau, fond, fond relief, bat1, bat2, rouge vif, zone, texte, trait fin
     static cv::Vec3b colors[NB_COLORS];
-    static constexpr double b
+    static constexpr double beta = 1.5;
+ 
