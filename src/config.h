@@ -19,4 +19,5 @@ public:
     // Eau, fond, fond relief, bat1, bat2, rouge vif, zone, texte, trait fin
     static cv::Vec3b colors[NB_COLORS];
     static constexpr double beta = 1.5;
-    static constexpr double initial_tempera
+    static constexpr double initial_temperature = 10.0;
+  
