@@ -21,4 +21,4 @@ public:
     static constexpr double beta = 1.5;
     static constexpr double initial_temperature = 10.0;
     static constexpr double temperature_decrease = 0.95;
-    stati
+    static constexp
