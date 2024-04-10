@@ -20,4 +20,4 @@ public:
     static cv::Vec3b colors[NB_COLORS];
     static constexpr double beta = 1.5;
     static constexpr double initial_temperature = 10.0;
-    static constexpr double temperature_decr
+    static constexpr double temperature_decrease =
