@@ -24,4 +24,4 @@ public:
     static constexpr double min_change = 2.0;
 };
 
-#endif /* defined(__ma
+#endif /* defined(__markov__config
