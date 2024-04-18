@@ -18,3 +18,4 @@ void convert(cv::Mat& prob, cv::Mat& output)
             output.at<cv::Vec3b>(i, j) = Config::colors[prob.at<uchar>(i, j)];
         }
     }
+}
