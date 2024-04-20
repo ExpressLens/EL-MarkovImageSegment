@@ -2,4 +2,4 @@
 //  convert.h
 //  markov
 //
-//  Cre
+//  Created by
