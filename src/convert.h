@@ -2,4 +2,4 @@
 //  convert.h
 //  markov
 //
-//  Created by
+//  Created by ixi on
