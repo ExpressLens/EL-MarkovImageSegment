@@ -6,4 +6,5 @@
 //
 //
 
-#ifndef __markov__c
+#ifndef __markov__convert__
+#def
