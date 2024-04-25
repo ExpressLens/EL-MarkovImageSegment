@@ -7,4 +7,4 @@
 //
 
 #ifndef __markov__convert__
-#def
+#define __markov
