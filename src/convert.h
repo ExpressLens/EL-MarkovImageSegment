@@ -12,4 +12,4 @@
 #include <opencv2/opencv.hpp>
 #include "config.h"
 
-void convert(cv::Mat& prob
+void convert(cv::Mat& prob, cv::Mat& o
