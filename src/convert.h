@@ -14,3 +14,4 @@
 
 void convert(cv::Mat& prob, cv::Mat& output);
 
+#endif /* defined(
