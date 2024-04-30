@@ -14,4 +14,4 @@
 
 void convert(cv::Mat& prob, cv::Mat& output);
 
-#endif /* defined(
+#endif /* defined(__markov__c
