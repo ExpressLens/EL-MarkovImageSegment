@@ -19,3 +19,11 @@ Cost::Cost()
 }
 
 void Cost::compute_mean_variance_(cv::Mat& image, int classe)
+{
+    double sum;
+    double sum2;
+
+    for (int k = 0; k < 3; ++k)
+    {
+        sum = 0;
+        sum2 = 0;
