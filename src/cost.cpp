@@ -55,3 +55,12 @@ void Cost::compute_covariance_(cv::Mat& image, int classe)
             sum[0] += (image.at<cv::Vec3b>(i, j)[0] - mean_[classe](0)) *
                       (image.at<cv::Vec3b>(i, j)[1] - mean_[classe](1));
             sum[1] += (image.at<cv::Vec3b>(i, j)[0] - mean_[classe](0)) *
+                      (image.at<cv::Vec3b>(i, j)[2] - mean_[classe](2));
+            sum[2] += (image.at<cv::Vec3b>(i, j)[1] - mean_[classe](1)) *
+                      (image.at<cv::Vec3b>(i, j)[2] - mean_[classe](2));
+        }
+    }
+
+    covariance_[classe](0, 1) = sum[0] / (image.cols * image.rows);
+    covariance_[classe](0, 2) = sum[1] / (image.cols * image.rows);
+    covariance_[classe](1, 2) = sum[2] / (image.cols * image.rows);
