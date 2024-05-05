@@ -73,3 +73,12 @@ void Cost::compute_covariance_(cv::Mat& image, int classe)
 void Cost::fix_singular_(int classe)
 {
     // Avoid singular matrix (that does not have a matrix inverse)
+    for (arma::uword i = 0; i < covariance_[classe].n_rows; ++i)
+    {
+        for (arma::uword j = 0; j < covariance_[classe].n_cols; ++j)
+        {
+            if (covariance_[classe](i, j) == 0)
+                covariance_[classe](i, j) = 1e-10;
+        }
+    }
+}
