@@ -64,3 +64,12 @@ void Cost::compute_covariance_(cv::Mat& image, int classe)
     covariance_[classe](0, 1) = sum[0] / (image.cols * image.rows);
     covariance_[classe](0, 2) = sum[1] / (image.cols * image.rows);
     covariance_[classe](1, 2) = sum[2] / (image.cols * image.rows);
+
+    covariance_[classe](1, 0) = covariance_[classe](0, 1);
+    covariance_[classe](2, 0) = covariance_[classe](0, 2);
+    covariance_[classe](2, 1) = covariance_[classe](1, 2);
+}
+
+void Cost::fix_singular_(int classe)
+{
+    // Avoid singular matrix (that does not have a matrix inverse)
