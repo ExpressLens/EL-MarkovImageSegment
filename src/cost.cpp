@@ -82,3 +82,16 @@ void Cost::fix_singular_(int classe)
         }
     }
 }
+
+void Cost::init()
+{
+    cv::Mat image;
+    boost::filesystem::directory_iterator end;
+
+    std::string input_dir(std::string(PROJECT_SRC_DIR) + "/classe");
+    int classe = 0;
+
+    if (boost::filesystem::exists(input_dir)
+        && boost::filesystem::is_directory(input_dir))
+    {
+        for (boost::filesystem::directory_iterator it(input_dir);
