@@ -116,3 +116,13 @@ void Cost::init()
 }
 
 double Cost::c2_test(cv::Mat& prob, int i, int j, int classe)
+{
+    if (prob.at<uchar>(i, j) == classe)
+        return - Config::beta;
+    else
+        return Config::beta;
+}
+
+double Cost::c2_potts(cv::Mat& prob, int i, int j, int classe)
+{
+    double cost = 0.;
