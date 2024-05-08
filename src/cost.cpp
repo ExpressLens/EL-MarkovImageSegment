@@ -95,3 +95,13 @@ void Cost::init()
         && boost::filesystem::is_directory(input_dir))
     {
         for (boost::filesystem::directory_iterator it(input_dir);
+             it != end; ++it)
+        {
+            if (it->path().extension() == ".png")
+            {
+                std::cout << it->path().filename() << std::endl;
+                image = cv::imread(it->path().string(), CV_LOAD_IMAGE_COLOR);
+                cv::cvtColor(image, image, CV_RGB2Luv);
+
+                compute_mean_variance_(image, classe);
+                compute_covariance_(image, classe);
