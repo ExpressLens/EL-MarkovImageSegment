@@ -105,3 +105,14 @@ void Cost::init()
 
                 compute_mean_variance_(image, classe);
                 compute_covariance_(image, classe);
+
+                fix_singular_(classe);
+                inv_covariance_[classe] = arma::inv(covariance_[classe]);
+
+                ++classe;
+            }
+        }
+    }
+}
+
+double Cost::c2_test(cv::Mat& prob, int i, int j, int classe)
