@@ -126,3 +126,12 @@ double Cost::c2_test(cv::Mat& prob, int i, int j, int classe)
 double Cost::c2_potts(cv::Mat& prob, int i, int j, int classe)
 {
     double cost = 0.;
+
+    if (i > 0)
+        cost += c2_test(prob, i - 1, j, classe);
+
+    if (i < prob.rows - 1)
+        cost += c2_test(prob, i + 1, j, classe);
+
+    if (j > 0)
+        cost += c2_test(prob, i, j - 1, classe);
