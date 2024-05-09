@@ -135,3 +135,19 @@ double Cost::c2_potts(cv::Mat& prob, int i, int j, int classe)
 
     if (j > 0)
         cost += c2_test(prob, i, j - 1, classe);
+
+    if (j < prob.cols - 1)
+        cost += c2_test(prob, i, j + 1, classe);
+
+    return cost;
+}
+
+double Cost::c1(cv::Mat& img, int i, int j, int classe)
+{
+    arma::vec3 x;
+    x(0) = img.at<cv::Vec3b>(i, j)[0];
+    x(1) = img.at<cv::Vec3b>(i, j)[1];
+    x(2) = img.at<cv::Vec3b>(i, j)[2];
+
+    arma::vec3 m = (x - mean_[classe]);
+    arma::mat out = trans(m) * inv_covariance_[classe] * m;
