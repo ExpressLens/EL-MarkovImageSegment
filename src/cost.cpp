@@ -151,3 +151,12 @@ double Cost::c1(cv::Mat& img, int i, int j, int classe)
 
     arma::vec3 m = (x - mean_[classe]);
     arma::mat out = trans(m) * inv_covariance_[classe] * m;
+
+    return log(sqrt(2.0 * M_PI * arma::det(covariance_[classe]))) +
+           0.5 * out[0];
+}
+
+double Cost::compute(cv::Mat& img, int i, int j, int classe, cv::Mat& prob)
+{
+    return c1(img, i, j, classe) + c2_potts(prob, i, j, classe);
+}
