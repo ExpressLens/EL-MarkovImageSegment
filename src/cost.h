@@ -2,4 +2,4 @@
 //  cost.h
 //  markov
 //
-//  Created
+//  Created by ixi on 
