@@ -1,4 +1,5 @@
 //
 //  cost.h
 //  markov
-/
+//
+//  Created
