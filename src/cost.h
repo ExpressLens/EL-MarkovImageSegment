@@ -6,4 +6,5 @@
 //
 //
 
-#ifndef __markov__co
+#ifndef __markov__cost__
+#define
