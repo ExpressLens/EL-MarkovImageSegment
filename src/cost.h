@@ -9,4 +9,4 @@
 #ifndef __markov__cost__
 #define __markov__cost__
 
-#include <openc
+#include <opencv2/opencv.hpp
