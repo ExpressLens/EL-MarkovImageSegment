@@ -7,4 +7,4 @@
 //
 
 #ifndef __markov__cost__
-#define
+#define __markov__cost__
