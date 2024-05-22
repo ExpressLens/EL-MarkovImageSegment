@@ -9,4 +9,5 @@
 #ifndef __markov__cost__
 #define __markov__cost__
 
-#include <opencv2/opencv.hpp
+#include <opencv2/opencv.hpp>
+#include <armadil
