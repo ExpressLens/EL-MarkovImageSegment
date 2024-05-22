@@ -8,3 +8,5 @@
 
 #ifndef __markov__cost__
 #define __markov__cost__
+
+#include <openc
