@@ -10,4 +10,5 @@
 #define __markov__cost__
 
 #include <opencv2/opencv.hpp>
-#include <armadil
+#include <armadillo>
+#include <cmath>
