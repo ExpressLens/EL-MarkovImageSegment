@@ -13,4 +13,5 @@
 #include <armadillo>
 #include <cmath>
 #include <boost/filesystem.hpp>
-#include "Setting
+#include "Settings.h"
+#include "c
