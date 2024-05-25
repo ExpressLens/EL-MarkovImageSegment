@@ -14,4 +14,6 @@
 #include <cmath>
 #include <boost/filesystem.hpp>
 #include "Settings.h"
-#include "c
+#include "config.h"
+
+class Co
