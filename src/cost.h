@@ -16,4 +16,7 @@
 #include "Settings.h"
 #include "config.h"
 
-class Co
+class Cost
+{
+public:
+    C
