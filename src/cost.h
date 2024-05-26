@@ -20,4 +20,5 @@ class Cost
 {
 public:
     Cost();
-    v
+    void init();
+  
