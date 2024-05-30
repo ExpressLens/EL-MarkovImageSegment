@@ -21,4 +21,4 @@ class Cost
 public:
     Cost();
     void init();
-    double 
+    double c2_test(cv::Mat& pr
