@@ -21,4 +21,5 @@ class Cost
 public:
     Cost();
     void init();
-    double c2_test(cv::Mat& prob, int i, int j, int cla
+    double c2_test(cv::Mat& prob, int i, int j, int classe);
+    doub
