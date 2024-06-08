@@ -22,4 +22,4 @@ public:
     Cost();
     void init();
     double c2_test(cv::Mat& prob, int i, int j, int classe);
-    double c2_potts(cv::M
+    double c2_potts(cv::Mat& prob, int i, i
