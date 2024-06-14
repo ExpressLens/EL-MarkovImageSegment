@@ -23,4 +23,4 @@ public:
     void init();
     double c2_test(cv::Mat& prob, int i, int j, int classe);
     double c2_potts(cv::Mat& prob, int i, int j, int classe);
-    double c1(cv::Mat& img
+    double c1(cv::Mat& img, int i, int 
