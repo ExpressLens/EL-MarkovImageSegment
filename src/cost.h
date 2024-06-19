@@ -26,4 +26,5 @@ public:
     double c1(cv::Mat& img, int i, int j, int classe);
     double compute(cv::Mat& img, int i, int j, int classe, cv::Mat& prob);
 
-private
+private:
+    void fix
