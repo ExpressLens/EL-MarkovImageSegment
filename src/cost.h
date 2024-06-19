@@ -27,4 +27,4 @@ public:
     double compute(cv::Mat& img, int i, int j, int classe, cv::Mat& prob);
 
 private:
-    void fix
+    void fix_singular_
