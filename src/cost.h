@@ -28,4 +28,4 @@ public:
 
 private:
     void fix_singular_(int classe);
-    void compute_mean_varian
+    void compute_mean_variance_(cv::M
