@@ -28,4 +28,4 @@ public:
 
 private:
     void fix_singular_(int classe);
-    void compute
+    void compute_mean_varian
