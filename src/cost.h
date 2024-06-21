@@ -28,4 +28,5 @@ public:
 
 private:
     void fix_singular_(int classe);
-    void compute_mean_variance_(cv::Mat& image, int class
+    void compute_mean_variance_(cv::Mat& image, int classe);
+    void
