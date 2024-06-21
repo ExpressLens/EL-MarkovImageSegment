@@ -29,4 +29,4 @@ public:
 private:
     void fix_singular_(int classe);
     void compute_mean_variance_(cv::Mat& image, int classe);
-    void compute_covariance_(cv::M
+    void compute_covariance_(cv::Mat& image, in
