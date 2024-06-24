@@ -34,4 +34,4 @@ private:
 private:
     arma::vec3 mean_[NB_COLORS];
     arma::mat33 covariance_[NB_COLORS];
-    arma::mat3
+    arma::mat33 inv_covariance_[NB_
