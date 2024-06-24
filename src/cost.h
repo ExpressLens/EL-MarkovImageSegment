@@ -33,3 +33,4 @@ private:
 
 private:
     arma::vec3 mean_[NB_COLORS];
+    arma::mat
