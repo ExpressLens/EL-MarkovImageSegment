@@ -32,4 +32,4 @@ private:
     void compute_covariance_(cv::Mat& image, int classe);
 
 private:
-    arma::vec3 mean_[NB
+    arma::vec3 mean_[NB_COLORS];
