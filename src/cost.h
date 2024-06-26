@@ -37,4 +37,4 @@ private:
     arma::mat33 inv_covariance_[NB_COLORS];
 };
 
-#endif /* defined(__
+#endif /* defined(__markov__cost__) */
