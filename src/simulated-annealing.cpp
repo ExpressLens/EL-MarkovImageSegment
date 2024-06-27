@@ -63,3 +63,6 @@ void simulated_annealing(cv::Mat& img)
         temperature *= Config::temperature_decrease;
     }
     while (delta_global_enery > Config::min_change);
+
+    img = output;
+}
