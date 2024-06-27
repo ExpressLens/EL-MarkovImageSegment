@@ -55,3 +55,11 @@ void simulated_annealing(cv::Mat& img)
                         delta_global_enery += fabs(delta);
                         prob.at<uchar>(i, j) = new_classe;
                     }
+                }
+            }
+        }
+
+        convert(prob, output);
+        temperature *= Config::temperature_decrease;
+    }
+    while (delta_global_enery > Config::min_change);
