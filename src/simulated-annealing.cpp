@@ -25,3 +25,17 @@ void simulated_annealing(cv::Mat& img)
     cv::Mat output(img.size(), CV_8UC3, cv::Scalar(255, 255, 255));
 
     cv::cvtColor(img, img, CV_RGB2Luv);
+
+    random_image(prob);
+    convert(prob, output);
+
+    c.init();
+
+    do
+    {
+        //cv::imshow("Display image", output);
+        //cv::waitKey(0);
+
+        delta_global_enery = 0.;
+
+        // k avoids the influence by neighborhood
