@@ -39,3 +39,19 @@ void simulated_annealing(cv::Mat& img)
         delta_global_enery = 0.;
 
         // k avoids the influence by neighborhood
+        for (int k = 0; k < 2; ++k)
+        {
+            for (int i = 0; i < prob.rows; ++i)
+            {
+                for (int j = k; j < prob.cols; j += 2)
+                {
+                    new_classe = uint_dist(eng) % NB_COLORS;
+                    delta = c.compute(img, i, j, new_classe, prob) -
+                            c.compute(img, i, j, prob.at<uchar>(i, j), prob);
+
+                    if (delta <= 0. ||
+                        exp(-delta / temperature) >= ureal_dist(eng))
+                    {
+                        delta_global_enery += fabs(delta);
+                        prob.at<uchar>(i, j) = new_classe;
+                    }
