@@ -2,4 +2,4 @@
 //  simulated-annealing.h
 //  markov
 //
-//  Created by i
+//  Created by ixi on 15/12/1
