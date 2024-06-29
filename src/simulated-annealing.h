@@ -7,4 +7,4 @@
 //
 
 #ifndef __markov__simulated_annealing__
-#define __markov__simul
+#define __markov__simulated_anneal
