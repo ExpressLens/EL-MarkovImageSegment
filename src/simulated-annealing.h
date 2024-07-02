@@ -13,4 +13,6 @@
 #include <opencv2/opencv.hpp>
 #include "random.h"
 #include "convert.h"
-#in
+#include "cost.h"
+
+vo
