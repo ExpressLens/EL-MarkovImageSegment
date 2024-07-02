@@ -15,4 +15,4 @@
 #include "convert.h"
 #include "cost.h"
 
-vo
+void simulated_ann
