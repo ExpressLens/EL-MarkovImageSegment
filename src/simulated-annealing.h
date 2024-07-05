@@ -15,4 +15,4 @@
 #include "convert.h"
 #include "cost.h"
 
-void simulated_ann
+void simulated_annealing(cv::Mat&
