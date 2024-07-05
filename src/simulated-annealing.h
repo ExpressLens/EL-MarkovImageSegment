@@ -15,4 +15,6 @@
 #include "convert.h"
 #include "cost.h"
 
-void simulated_annealing(cv::Mat&
+void simulated_annealing(cv::Mat& img);
+
+#endif /
