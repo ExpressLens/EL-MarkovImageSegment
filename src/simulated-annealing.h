@@ -17,4 +17,4 @@
 
 void simulated_annealing(cv::Mat& img);
 
-#endif /* defined(__markov__sim
+#endif /* defined(__markov__simulated_ann
